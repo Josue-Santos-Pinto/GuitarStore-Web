@@ -6,7 +6,7 @@ import { Separator } from "@/components/ui/separator"
 export const CartSidebar = () => {
     return (
         <Sheet>
-            <SheetTrigger>
+            <SheetTrigger asChild>
                 <Button>
                     <RocketIcon className="mr-2" />
                     <p>Carrinho</p>
