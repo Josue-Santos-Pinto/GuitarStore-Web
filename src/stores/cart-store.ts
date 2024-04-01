@@ -29,7 +29,7 @@ export const useCartStore = create<States & Actions>()(set => ({
         newCart[productIndex].quantity += quantity
 
         if(newCart[productIndex].quantity <= 0){
-            newCart.filter(item => item.product.id !== product.id)
+            newCart = newCart.filter(item => item.product.id !== product.id)
         }
 
         return {...state, cart: newCart}
