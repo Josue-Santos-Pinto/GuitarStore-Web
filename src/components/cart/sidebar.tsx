@@ -8,6 +8,7 @@ import { useCartStore } from "@/stores/cart-store"
 import { CartItem } from "./item"
 import { useState } from "react"
 import { CheckoutDialog } from "../checkout/dialog"
+import { ScrollArea, ScrollBar } from "@/components/scroll-area"
 
 export const CartSidebar = () => {
 
@@ -32,15 +33,18 @@ export const CartSidebar = () => {
                 </Button>
             </SheetTrigger>
             <SheetContent>
+            <ScrollArea className="flex flex-1 h-full" >
+                
                 <SheetHeader>
                     <SheetTitle>Carrinho</SheetTitle>
                 </SheetHeader>
-                <div className="flex flex-col gap-5 my-3">
-                    {cart.map((item, index)=>(
-                        <CartItem key={item.product.id} item={item} />
-                    ))}
-                </div>
-
+                
+                    <div className="flex flex-col gap-5 my-3">
+                        {cart.map((item, index)=>(
+                            <CartItem key={item.product.id} item={item} />
+                        ))}
+                    </div>
+                
                 <Separator className="my-4" />
 
                 <div className="flex justify-between items-center text-xs">
@@ -61,6 +65,7 @@ export const CartSidebar = () => {
                     open={checkoutOpen}
                     onOpenChange={setCheckoutOpen}
                 />
+               </ScrollArea>
             </SheetContent>
         </Sheet>
     )

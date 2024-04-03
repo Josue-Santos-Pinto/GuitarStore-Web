@@ -34,7 +34,7 @@ export const ProductItem = ({item}: Props) => {
                 <img 
                     src={item.image}
                     alt={item.name}
-                    className="w-full h-32 object-cover"
+                    className="w-full h-32 object-contain"
                 />
             </div>
             <div className="mt-3 flex flex-col gap-2">

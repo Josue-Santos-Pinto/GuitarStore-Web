@@ -3,128 +3,115 @@ import { Product } from "@/types/product";
 export const products: Product[] = [
     {
         id: 1,
-        category: 'guitar',
-        name: 'Guitar 1',
-        image: '/images/sushi/sushi1.png',
+        category: 'string',
+        name: 'Corda 1',
+        image: '/images/cordas/corda1.png',
         price: 49
     },
     {
         id: 2,
-        category: 'guitar',
-        name: 'Guitar 2',
-        image: '/images/sushi/sushi2.png',
+        category: 'string',
+        name: 'Corda 2',
+        image: '/images/cordas/corda2.png',
         price: 49
     },
     {
         id: 3,
-        category: 'guitar',
-        name: 'Guitar 3',
-        image: '/images/sushi/sushi3.png',
+        category: 'string',
+        name: 'Corda 3',
+        image: '/images/cordas/corda3.png',
         price: 49
     },
     {
         id: 4,
-        category: 'guitar',
-        name: 'Guitar 4',
-        image: '/images/sushi/sushi4.png',
+        category: 'string',
+        name: 'Corda 4',
+        image: '/images/cordas/corda4.png',
         price: 49
     },
     {
         id: 5,
-        category: 'guitar',
-        name: 'Guitar 5',
-        image: '/images/sushi/sushi5.png',
+        category: 'string',
+        name: 'Corda 5',
+        image: '/images/cordas/corda5.png',
         price: 49
     },
     {
         id: 6,
-        category: 'guitar',
-        name: 'Guitar 6',
-        image: '/images/sushi/sushi6.png',
+        category: 'string',
+        name: 'Corda 6',
+        image: '/images/cordas/corda6.png',
         price: 49
     },
     {
         id: 7,
-        category: 'guitar',
-        name: 'Guitar 7',
-        image: '/images/sushi/sushi7.png',
+        category: 'string',
+        name: 'Corda 7',
+        image: '/images/cordas/corda7.png',
         price: 49
     },
     {
         id: 8,
-        category: 'guitar',
-        name: 'Guitar 8',
-        image: '/images/sushi/sushi8.png',
+        category: 'string',
+        name: 'Corda 8',
+        image: '/images/cordas/corda8.png',
         price: 49
     },
     {
         id: 9,
-        category: 'guitar',
-        name: 'Guitar 9',
-        image: '/images/sushi/sushi9.png',
+        category: 'string',
+        name: 'Corda 9',
+        image: '/images/cordas/corda9.png',
         price: 49
     },
     {
         id: 21,
-        category: 'bass',
-        name: 'Bass 1',
-        image: '/images/combo/combo1.png',
+        category: 'cable',
+        name: 'Cabo 1',
+        image: '/images/cabos/cabo1.png',
         price: 81
     },
     {
         id: 22,
-        category: 'bass',
-        name: 'Bass 2',
-        image: '/images/combo/combo2.png',
+        category: 'cable',
+        name: 'Cabo 2',
+        image: '/images/cabos/cabo2.png',
         price: 81
     },
     {
         id: 23,
-        category: 'bass',
-        name: 'Bass 3',
-        image: '/images/combo/combo3.png',
+        category: 'cable',
+        name: 'Cabo 3',
+        image: '/images/cabos/cabo3.png',
         price: 81
     },
     {
         id: 24,
-        category: 'bass',
-        name: 'Bass 4',
-        image: '/images/combo/combo4.png',
+        category: 'cable',
+        name: 'Cabo 4',
+        image: '/images/cabos/cabo4.png',
         price: 81
     },
     {
         id: 25,
-        category: 'bass',
-        name: 'Bass 5',
-        image: '/images/combo/combo5.png',
+        category: 'cable',
+        name: 'Cabo 5',
+        image: '/images/cabos/cabo5.png',
         price: 81
     },
     {
         id: 26,
-        category: 'bass',
-        name: 'Bass 6',
-        image: '/images/combo/combo6.png',
+        category: 'tuner',
+        name: 'Afinador 1',
+        image: '/images/afinadores/afinador1.png',
         price: 81
     },
     {
         id: 27,
-        category: 'bass',
-        name: 'Bass 7',
-        image: '/images/combo/combo7.png',
+        category: 'tuner',
+        name: 'Afinador 2',
+        image: '/images/afinadores/afinador2.png',
         price: 81
     },
-    {
-        id: 28,
-        category: 'bass',
-        name: 'Bass 8',
-        image: '/images/combo/combo8.png',
-        price: 81
-    },
-    {
-        id: 29,
-        category: 'bass',
-        name: 'Bass 9',
-        image: '/images/combo/combo9.png',
-        price: 81
-    },
+    
 ];
